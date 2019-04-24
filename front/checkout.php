@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
 <?php
 session_start();
 if(isset($_SESSION['login_user']) and $_SESSION['login_user']=="mayssa"){
